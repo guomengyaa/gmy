@@ -21,18 +21,58 @@ body{
   line-height: 1.6em;
 }
 
-#guarantee {
+.guarantee{
   border-color:        white;
   border-width:        1px;
   border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; 
-  margin:              30px;  /* 新增外边距 */
+  margin:              30px;  
 }
 
-body{
+.guarantee{
   line-height: 1.9em;
-  font-style: initial;
+  font-style: italic;
   color: #444444;
   font-family: Georgia, 'Times New Roman';
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 250px;
+  border-style: double;
+  border-width: medium;
+  border-color:rgb(164, 218, 218);
+  border-top-color: azure;
+  border-bottom-style: double;
+  border-radius: 15px;
+  border-top-right-radius: 360px;
+  border-bottom-left-radius: 360px;
+  border-bottom-right-radius: 360px;
+  border-top-left-radius: 360px;
+  padding-left: 80px;
+  }
+.elixirs{
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-image:
+url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;
+}
+.elixirs h2{
+  color: black;
+}
+.elixirs h3{
+  line-height: 1em;
+}
+.elixirs{
+  line-height:1
 }
