@@ -40,12 +40,11 @@ body{
   background-position: top left;
   padding: 25px;
   padding-left: 80px;
-  margin: 250px;
+  margin: 25px;
   border-style: double;
   border-width: medium;
   border-color:rgb(164, 218, 218);
   border-top-color: azure;
-  border-bottom-style: double;
   border-radius: 15px;
   border-top-right-radius: 360px;
   border-bottom-left-radius: 360px;
@@ -63,7 +62,7 @@ body{
   padding-left: 20px;
   margin-left: 20px;
   background-image:
-url(images/cocktail.gif);
+  url(images/cocktail.gif);
   background-repeat: repeat-x;
   text-align: center;
 }
@@ -75,4 +74,29 @@ url(images/cocktail.gif);
 }
 .elixirs{
   line-height:1
+}
+.footer{
+  font-size: .5em;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+.cd{
+  font-style: italic;
+}
+.artist{
+  font-weight: bold;
+}
+span{
+  width: 400px;
+}
+.elixirs a:link{
+  color: #007e7e;
+}
+.elixirs a:visited{
+  color: #333333;
+}
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
