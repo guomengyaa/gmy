@@ -27,10 +27,9 @@ body{
   border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; 
-  margin:              30px;  
-}
-
-.guarantee{
+  padding-left: 80px;
+  margin:   30px; 
+  margin-right: 250px;
   line-height: 1.9em;
   font-style: italic;
   color: #444444;
@@ -38,19 +37,10 @@ body{
   background-image: url(images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
-  padding: 25px;
-  padding-left: 80px;
-  margin: 25px;
-  border-style: double;
-  border-width: medium;
-  border-color:rgb(164, 218, 218);
-  border-top-color: azure;
-  border-radius: 15px;
-  border-top-right-radius: 360px;
-  border-bottom-left-radius: 360px;
-  border-bottom-right-radius: 360px;
-  border-top-left-radius: 360px;
-  padding-left: 80px;
+  border-bottom-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-top-left-radius: 2em;
   }
 .elixirs{
   border-width: thin;
@@ -65,15 +55,14 @@ body{
   url(images/cocktail.gif);
   background-repeat: repeat-x;
   text-align: center;
+  line-height: 1;
+  float: right;
 }
 .elixirs h2{
   color: black;
 }
 .elixirs h3{
   line-height: 1em;
-}
-.elixirs{
-  line-height:1
 }
 .footer{
   font-size: .5em;
@@ -105,4 +94,13 @@ span{
 }
 #iname{
   color:green
+}
+body h1{
+  color: #f88396;
+}
+p h1{
+  color: aquamarine;
+}
+h1{
+  color: aqua;
 }

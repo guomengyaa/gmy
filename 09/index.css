@@ -1,0 +1,19 @@
+/* p{
+  color: red;
+}
+
+p.one{
+  color: blue;
+}
+
+p#two{
+  color: green;
+} */
+
+body h1{
+  color: pink;
+}
+
+h1{
+  color: black;
+}
