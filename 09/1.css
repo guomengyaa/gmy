@@ -1,0 +1,54 @@
+.left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 20px;
+}
+
+.ruler {
+	display: inline-block;
+	width: 28px;
+	border: 1px solid red;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 10px;
+}
+
+.bottom {
+	margin-top: 20px;
+}
+
+.ruler1 {
+	height: 20px;
+}
+
+div.a{
+	width:30vw;
+	height:10vh;
+	background-color:pink;
+	border: 20vh;
+}
+
+div.b{
+	width:20vw;
+	height:5vh;
+	background-color:black;
+	border: 10vh;
+}
+
+.float-block{
+	width: 200px;
+	float: right;
+}
+
+/*.right1 {
+	float: right;
+}
