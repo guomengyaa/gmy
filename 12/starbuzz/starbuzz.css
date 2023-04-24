@@ -11,13 +11,18 @@ body {
   height:           108px;
 }
 
+/* .header2{ */
+  /* float:            right; */
+/* } */
+
+
 .main {
-  display: table-cell;
-  vertical-align: top;
+  display:          table-cell;
+  vertical-align:   top;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  /* margin:           0px 10px 10px 10px; */
+  /* margin:           0px 0px 0px 0px; */
 }
 
 .sidebar {
@@ -26,7 +31,7 @@ body {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  width: 280px;
+  width:            280px;
   /* margin:           0px 10px 10px 10px; */
 }
 
@@ -76,4 +81,18 @@ div.tableRow{
   background-color: #efe5d0;
   padding: 15px;
   vertical-align: top;
+}
+
+.sprite-container{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('images/header.gif');
+}
+.header-logo{
+  background-position: 0px 0px;
+}
+
+.header-slogan{
+  background-position: -400px 0px;
 }
