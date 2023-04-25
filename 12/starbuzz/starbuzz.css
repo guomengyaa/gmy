@@ -11,11 +11,6 @@ body {
   height:           108px;
 }
 
-/* .header2{ */
-  /* float:            right; */
-/* } */
-
-
 .main {
   display:          table-cell;
   vertical-align:   top;
@@ -68,12 +63,12 @@ a:visited {
 }
 
 div.tableContainer{
-  display: table;
-  border-spacing: 10px;
+  display:          table;
+  border-spacing:   10px;
 }
 
 div.tableRow{
-  display: table-row;
+  display:          table-row;
 }
 
 .drinks {
@@ -84,15 +79,44 @@ div.tableRow{
 }
 
 .sprite-container{
-  width: 50%;
+  width: 260px;
   height: 100%;
   overflow: hidden;
-  background-image: url('images/header.gif');
 }
 .header-logo{
+  background-image: url('images/header.gif');
   background-position: 0px 0px;
 }
 
 .header-slogan{
-  background-position: -400px 0px;
+  background-image: url('images/header.gif');
+  background-position: 260px 0px;
+  float: right;
+}
+
+.award{
+  position:absolute;
+  top: 30px;
+  left: 45%;
+  transition:left 0.5s ease;
+}
+
+.award:hover{
+  left: 50%;
+  width:200px;
+}
+
+.coupon{
+  position: fixed;
+  top: 350px;
+  left: -210px;
+  transition: left 0.5s ease;
+}
+
+.coupon:hover{
+  left: 0px;
+}
+
+.coupon a,img{
+  border: none;
 }
